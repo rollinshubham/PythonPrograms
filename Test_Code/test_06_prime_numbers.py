@@ -1,7 +1,7 @@
 import importlib.util
 
 spec = importlib.util.spec_from_file_location(
-    "prime", "Code/03_prime_numbers.py"
+    "prime", "Code/06_prime_numbers.py"
 )
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
